@@ -1370,7 +1370,7 @@
     globby "^11.0.0"
     read-yaml-file "^1.1.0"
 
-"@mdjs/core@^0.4.1", "@mdjs/core@^0.7.1", "@mdjs/core@^0.7.2":
+"@mdjs/core@^0.4.1", "@mdjs/core@^0.7.2", "@mdjs/core@^0.8.0":
   version "0.7.2"
   resolved "https://registry.yarnpkg.com/@mdjs/core/-/core-0.7.2.tgz#2d94c8440f81860cc8d9fef8d516e329463bfbd7"
   integrity sha512-0vaiM3l01TC6PCmMZ/Mgun3xHaTzg8A3tSEVewkSQ3unfoB1053GrrqDb8Y8K/CXM5c3CPG1cFJEYOTk4mhuyA==
@@ -1543,16 +1543,16 @@
     workbox-routing "^6.1.5"
     workbox-strategies "^6.1.5"
 
-"@rocket/cli@^0.8.2":
-  version "0.8.2"
-  resolved "https://registry.yarnpkg.com/@rocket/cli/-/cli-0.8.2.tgz#a5139c95b4721612d75c0598f0f753f1e370483d"
-  integrity sha512-yyIZ26QCxvNLOoxJqYasDGbdyhkNqkUazasu249Ffaki3Cmx+VJqvAU/B37XM3sGGv+UWyhHwQL4QhhgzeX9IA==
+"@rocket/cli@^0.9.6":
+  version "0.9.6"
+  resolved "https://registry.yarnpkg.com/@rocket/cli/-/cli-0.9.6.tgz#5b4f4d1f5d43e3bf2cebe1911e5bb5c33b46eec8"
+  integrity sha512-I3bxp2Kihq0ldSqEISrQriMrkzTGjHBLvLy3dnuvB7OC19l3zzWZgSZslu1ERPhgj3OjoqIHdypHSZm8Ycmr+g==
   dependencies:
     "@11ty/eleventy" "^0.11.1"
     "@11ty/eleventy-img" "^0.9.0"
     "@rocket/building-rollup" "^0.3.1"
     "@rocket/core" "^0.1.2"
-    "@rocket/eleventy-plugin-mdjs-unified" "^0.4.1"
+    "@rocket/eleventy-plugin-mdjs-unified" "^0.5.0"
     "@rocket/eleventy-rocket-nav" "^0.3.0"
     "@rollup/plugin-babel" "^5.2.2"
     "@rollup/plugin-node-resolve" "^11.0.1"
@@ -1560,7 +1560,7 @@
     "@web/dev-server" "^0.1.4"
     "@web/dev-server-rollup" "^0.3.2"
     "@web/rollup-plugin-copy" "^0.2.0"
-    check-html-links "^0.2.2"
+    check-html-links "^0.2.3"
     command-line-args "^5.1.1"
     command-line-usage "^6.1.1"
     fs-extra "^9.0.1"
@@ -1583,12 +1583,12 @@
     "@lion/overlays" "^0.26.1"
     lit-element "^2.4.0"
 
-"@rocket/eleventy-plugin-mdjs-unified@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@rocket/eleventy-plugin-mdjs-unified/-/eleventy-plugin-mdjs-unified-0.4.1.tgz#c634656df110b3e44ad8f9ce4fbf410df5eff1cf"
-  integrity sha512-XuxrQF8DiISVcx7TiEGzhsWKHrnYcMsJH7DUidWaAtIReTeWl5v9LvwgrSS8Z+UUsP5L0wbwjCgMjyH2Oi647g==
+"@rocket/eleventy-plugin-mdjs-unified@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@rocket/eleventy-plugin-mdjs-unified/-/eleventy-plugin-mdjs-unified-0.5.0.tgz#f4b6d3add86dcbdd50ecdd9ad1061ed1dc571005"
+  integrity sha512-yO9//qpLrXcXO0GZYFeMRr4aTXB5ldG2o2iam9z9RZTWFRM7Bu3JzRpOtZKfOX9UaP7GIzSrHAlimeeOndi2uQ==
   dependencies:
-    "@mdjs/core" "^0.7.1"
+    "@mdjs/core" "^0.8.0"
     es-module-lexer "^0.3.26"
     unist-util-visit "^2.0.3"
 
@@ -3563,16 +3563,17 @@ check-error@^1.0.2:
   resolved "https://registry.yarnpkg.com/check-error/-/check-error-1.0.2.tgz#574d312edd88bb5dd8912e9286dd6c0aed4aac82"
   integrity sha1-V00xLt2Iu13YkS6Sht1sCu1KrII=
 
-check-html-links@^0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/check-html-links/-/check-html-links-0.2.2.tgz#3f1ddbe766910327a337f67f7bad3dd9e014fa0d"
-  integrity sha512-F3BRswT6qrx7Qi+pphkSZ8H3va/hdbiYxZIYeEnlFXMvAXRzRqzL/W5vp1zjD8Y93wd5HcE15MiYhQ7bF0MnUA==
+check-html-links@^0.2.3:
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/check-html-links/-/check-html-links-0.2.3.tgz#2696d15962710a0efb09a2726a21d13c627656cd"
+  integrity sha512-0FkIG6AQm7e9ac5ZlsaSr5Sjb+LIRyMMami9/MtyA4ZAR7Ph20Ke3Ubg6taqXkxArGCC+qrL6lUf6DSW8OzXQg==
   dependencies:
     chalk "^4.0.0"
     command-line-args "^5.1.1"
     glob "^7.0.0"
     minimatch "^3.0.4"
     sax-wasm "^2.0.0"
+    slash "^3.0.0"
 
 chokidar@3.5.1, chokidar@^3.4.0, chokidar@^3.4.3, chokidar@^3.5.1:
   version "3.5.1"
